@@ -1,0 +1,27 @@
+{
+  "docker": {
+    "registry": "registry.gitlab.com/sterlingcapitalbrokers"
+  },
+  "webService": {
+    "namespace": "sfdc-integration",
+    "imageLabel": "latest",
+    "deployment": {
+      "resources": {
+        "limits": {
+          "cpu": "250m",
+          "memory": "256Mi"
+        },
+        "requests": {
+          "cpu": "250m",
+          "memory": "256Mi"
+        }
+      }
+    },
+    "labels": {
+      "environment": "development"
+    }
+  },
+  "apm": { "secretToken": "" },
+  "slackToken": "some token",
+  "gitlabK8sRegToken": "some token"
+}

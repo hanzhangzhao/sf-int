@@ -1,0 +1,8 @@
+{
+  "logger": {
+    "level": "debug"
+  },
+  "salesforce": {
+    "httpToken": ""
+  }
+}

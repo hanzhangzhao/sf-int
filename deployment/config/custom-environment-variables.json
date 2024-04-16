@@ -1,0 +1,28 @@
+{
+  "logger": {
+    "level": "LOG_LEVEL"
+  },
+  "platform": {
+    "baseUrl": "SCB_PLATFORM_URL",
+    "adminLogin": {
+      "user": "SCB_USER",
+      "password": "SCB_PASS"
+    }
+  },
+  "eventStore": {
+    "streamName": "STREAM_NAME",
+    "groupName": "GROUP_NAME",
+    "connectionOptions": {
+      "endpoint": "EVENTSTORE_HOST"
+    }
+  },
+  "apm": {
+    "serviceName": "APM_APPNAME",
+    "serverUrl": "APM_SERVERURL",
+    "secretToken": "APM_SECRETTOKEN",
+    "environment": "NODE_ENV"
+  },
+  "slack": {
+    "token": "SLACK_TOKEN"
+  }
+}
